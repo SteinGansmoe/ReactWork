@@ -1,1 +1,14 @@
-A simple repo to practise solving React and TypeScript problems. 
+
+# React / TypeScript Problems Repo
+
+
+## Problems solved
+
+* Counter
+* ToDoList
+* DebouncedSearch
+
+
+
+
+
