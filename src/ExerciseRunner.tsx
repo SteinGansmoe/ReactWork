@@ -1,5 +1,7 @@
 import { useMemo, useState } from "react";
 import { CounterExercise } from "./problems/Counter";
+import { TodoList } from "./problems/ToDoList";
+import { DebouncedSearch } from "./problems/DebouncedSearch";
 
 type Exercise = {
   id: string;
@@ -11,6 +13,8 @@ export function ExerciseRunner() {
   const exercises = useMemo<Exercise[]>(
     () => [
       { id: "counter", title: "Counter", Component: CounterExercise },
+      { id: "todo", title: "ToDoList", Component: TodoList },
+      { id: "debounced", title: "DebouncedSearch", Component: DebouncedSearch },
       // Add more exercises here later
     ],
     []
