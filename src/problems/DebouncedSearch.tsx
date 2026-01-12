@@ -3,14 +3,10 @@ import type { ChangeEvent } from "react";
 
 {/*
 Excersise #3 - Debounced Search 
-
-Build a component that filters a list based on a search input, but only updates the “applied search” after the user stops typing for a short time (debounce).
+Build a component that filters a list based on a search input, 
+but only updates the “applied search” after the user stops typing for a short time (debounce).
    
-
- const removeTodo = (id: number) => {
-        setTodos(todos.filter(todo => todo.id !== id));
-    };
-    */}
+*/}
 
 
 type User = {
